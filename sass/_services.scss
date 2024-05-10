@@ -1,0 +1,71 @@
+.main{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.services{
+    padding: 3.125rem 0;
+    text-align: center;
+}
+
+.title__h2{
+    font-size: 3em;
+    font-weight: 500;
+    color: #191825;
+    text-transform: uppercase;
+}
+
+.title__line{
+    border: 2px solid #fda300;
+    width: 5rem;
+    margin: auto;
+}
+
+.title__p{
+    margin-top: 0.625rem;
+    font-size: 1.1em;
+    color: #191825;
+}
+
+.services__group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.services__1{
+    padding: 35px 25px;
+    margin: 0 10px;
+    border: solid 1px #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    flex-basis: calc(25% - 20px);
+}
+
+.fa-stethoscope,
+.fa-heart-pulse,
+.fa-hand-dots,
+.fa-tooth{
+    font-size: 2.1875em;
+    color: #004173;
+}
+
+.services__1--title{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.service__btn{
+    display: inline-block;
+    padding: 0.575rem 1.25rem;
+    border-radius: 0.625rem;
+    background-color: #fda300;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0.625rem 0;
+    border: 0;
+}
+

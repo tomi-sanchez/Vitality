@@ -1,0 +1,133 @@
+.header{
+    background-image: url(/images/fondo\ principal.jpg);
+    background-color: #004173;
+    background-blend-mode: overlay;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    width: 5rem;
+}
+
+.header__btn--abrir,
+.header__btn--cerrar{
+    display: none;
+}
+
+.header__ul{
+    display: flex;
+}
+
+.header__a{
+    padding: 0 1.5rem;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #f0f0f0;
+    display: block;
+}
+
+.header__a:hover{
+    color: #c27f04;
+    transition: .3s ease;
+}
+
+.header__info{
+    text-align: center;
+}
+
+.info__text{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.info__text--title{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-size: 5em;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.info__text--slogan{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.info__text--p{
+    font-size: 1.1em;
+    color: #f0f0f0;
+    margin-top: 0.625rem;
+}
+
+.boton{
+    display: inline-block;
+    padding: 0.625rem 2rem;
+    border-radius: 1rem;
+    background-color: #fda300;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 1rem 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.header__about{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+    height: 6.25rem;
+}
+
+.fa-laptop-medical,
+.fa-microscope,
+.fa-location-dot{
+    font-size: 1.5em;
+    color: #f0f0f0;
+    margin-bottom: 0.625rem;
+}
+
+.about__date--title{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    font-weight: 500;
+}
+
+.about__date--description{
+    font-size: 1.1em;
+    color: #f0f0f0;
+}
+
+.btn__scroll{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 25px;
+}

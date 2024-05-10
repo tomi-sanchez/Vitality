@@ -1,0 +1,111 @@
+@use 'reset';
+@use 'header';
+@use 'services';
+@use 'planes';
+@use 'form';
+@use 'footer';
+
+
+@media screen and (max-width:550px){
+
+    .header__btn--abrir{
+        display: block;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+
+    .header__btn--cerrar{
+        display: block;
+        cursor: pointer;
+    }
+
+    .header__logo{
+        margin-top: 0.625rem;
+        margin-left: 1rem;
+    }
+
+    .header__nav{
+        opacity: 0;
+        visibility: hidden;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        position: absolute;
+        top: 5rem;
+        background-color: transparent;
+        backdrop-filter: blur(15px);
+        padding: 2rem;
+        transition: .3s ease;
+    } 
+
+    .header__nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .header__ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .header__about{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    /* Servicios */
+    .services{
+        padding: 1.875rem;
+    }
+
+    .title__p{
+        padding: 0.3125rem;
+    }
+
+    .services__group{
+        flex-direction: column;
+        margin-top: 0.625rem;
+    }
+
+    .services__1{
+        margin: 0 0 1.25rem 0;
+    }
+
+    /* Planes */
+    .planes__card{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .card__content{
+        margin: 1.25rem 0 1.25rem 0;
+    }
+
+    /* Consultas */
+    .query{
+        padding: 1.25rem;
+    }
+
+    .form__group{
+        flex-direction: column;
+        text-align: center;
+        gap: 0.625rem;
+    }
+
+    .form__text{
+        width: 18.75rem;
+    }
+
+    /* Footer */
+    .footer__fila{
+        text-align: center;
+    }
+    .footer__links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

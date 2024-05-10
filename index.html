@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitality</title>
+
+    <!-- Descripción para google -->
+    <meta name="description" content="Vitality, tu seguro médico integral que te ofrece tranquilidad y seguridad en todo momento. Con cobertura para consultas médicas, tratamientos especializados y más, Vitality te brinda la protección que necesitas para tu salud y la de tu familia.">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon32.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Fontawesome y Boxicons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header --> 
+    <header class="header">
+
+        <div class="header__menu container">
+
+            <img src="./images/logo.png" alt="LOGO" class="header__logo">
+           
+            <button class="header__btn--abrir" id="abrir"><img src="/images/menu.svg" alt="MENU"></button>
+
+            <nav class="header__nav" id="nav">
+
+                <button class="header__btn--cerrar" id="cerrar"><img src="/images/close.svg" alt="CLOSE"></button>
+
+                <ul class="header__ul">
+                    <li><a class="header__a" href="#">Inicio</a></li>
+                    <li><a class="header__a" href="#services">Servicios</a></li>
+                    <li><a class="header__a" href="#planes">Planes</a></li>
+                    <li><a class="header__a" href="#query">Consulta</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <div class="header__info info container">
+
+            <div class="info__text">
+                <h1 class="info__text--title">Vitality</h1>
+                <span class="info__text--slogan" >¡Tu salud, nuestro compromiso!</span>
+                <p class="info__text--p">
+                    Contamos con un equipo de profesionales altamente calificados y tecnología de vanguardia, ofrecemos una amplia gama de servicios médicos para toda la familia. Nuestras instalaciones modernas y acogedoras le brindarán la comodidad que necesita mientras recibe la mejor atención médica.
+                </p>
+                <a href="#" class="boton">Emergencia</a>
+            </div>
+
+        </div>
+
+        <div class="header__about about container">
+
+            <div class="about__date">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <h3 class="about__date--title">Telemedicina</h3>
+                <span class="about__date--description">Atención las 24hs</span>
+            </div>
+
+            <div class="about__date">
+                <i class="fa-solid fa-microscope"></i>
+                <h3 class="about__date--title">Laboratorio</h3>
+                <span class="about__date--description">Hacemos tus estudios</span>
+            </div>
+
+            <div class="about__date">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3 class="about__date--title">Av. Rivadavia 357</h3>
+                <span class="about__date--description">Encontranos aquí</span>
+            </div>
+
+        </div>
+
+        <a href="#" class="btn__scroll">
+            <i class='bx bx-chevrons-up'></i>
+        </a>
+
+    </header>
+
+    <!-- Main --> 
+    <main class="main">
+
+        <!-- Servicios -->
+        <section class="services container" id="services">
+
+            <div class="services__title title">
+
+                <h2 class="title__h2">Servicios</h2>
+                <div class="title__line"></div>
+                <p class="title__p">Hace tu consulta con nuestros mejores especialiestas</p>
+            
+            </div>
+
+            <div class="services__group">
+
+                <div class="services__1">
+
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <h4 class="services__1--title">Clínico</h4>
+                    <a href="#consultas" class="service__btn">Consulta</a>
+
+                </div>
+
+                <div class="services__1">
+
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <h4 class="services__1--title">Cardiología</h4>
+                    <a href="#consultas" class="service__btn">Consulta</a>
+
+                </div>
+
+                <div class="services__1">
+                    <i class="fa-solid fa-hand-dots"></i>
+                    <h4 class="services__1--title">Dermatología</h4>
+                    <a href="#consultas" class="service__btn">Consulta</a>
+
+                </div>
+
+                <div class="services__1">
+
+                    <i class="fa-solid fa-tooth"></i>
+                    <h4 class="services__1--title">Odontología</h4>
+                    <a href="#consultas" class="service__btn">Consulta</a>
+
+                </div>
+
+            </div>
+
+        </section> 
+
+        <!-- Planes -->
+        <section class="planes container" id="planes">
+
+            <div class="planes__title title">
+
+                <h2 class="title__h2">Planes</h2>
+                <div class="title__line"></div>
+                <p class="title__p">Elegí el mejor plan que se ajuste a tus necesidades</p>
+            
+            </div>
+
+            <div class="planes__card card">
+
+                <div class="card__content text">
+
+                    <h5 class="text__h5">BÁSICO</h5>
+                    <h4 class="text__h4">u$a 500</h4>
+
+                    <div class="text__line"></div>
+
+                    <p class="text__list">Una consulta gratis</p>
+                    <p class="text__list">15% OFF en el resto de las consultas</p>
+                    <p class="text__list">Análisis sin cargo</p>
+                    <br>
+
+                    <div class="service__btn">
+                        <a href="#">Contratar</a>
+                    </div>
+
+                </div>
+
+                <div class="card__content text card__content--premium">
+
+                    <h5 class="text__h5">PREMIUM</h5>
+                    <h4 class="text__h4">u$a 1500</h4>
+
+                    <div class="text__line"></div>
+
+                    <p class="text__list">Tres consulta gratis</p>
+                    <p class="text__list">25% OFF en el resto de las consultas</p>
+                    <p class="text__list">Análisis sin cargo</p>
+                    <p class="text__list">Una ambulancia por mes</p>
+                    
+                    <div class="service__btn">
+                        <a href="#">Contratar</a>
+                    </div>
+
+                </div>
+
+                <div class="card__content text">
+
+                    <h5 class="text__h5">INTERMEDIO</h5>
+                    <h4 class="text__h4">u$a 1000</h4>
+
+                    <div class="text__line"></div>
+
+                    <p class="text__list">Dos consulta gratis</p>
+                    <p class="text__list">20% OFF en el resto de las consultas</p>
+                    <p class="text__list">Análisis sin cargo</p>
+                    <br>
+
+                    <div class="service__btn">
+                        <a href="#">Contratar</a>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </section>
+
+        <!-- Formulario -->
+        <section class="query container" id="query">
+
+            <div class="query__title title">
+
+                <h2 class="title__h2">Consultas</h2>
+                <div class="title__line"></div>
+                <p class="title__p">Importante: para una mejor atención, debe completar todos los campos del formulario</p>
+            
+            </div>
+
+            <form id="enviar-formulario" class="form" action="https://formsubmit.co/tomasezequielsanchez16@gmail.com" method="POST">
+
+                <div class="form__group group">
+
+                    <input class="group__input" type="text" name="name" id="name" placeholder="Ingrese su nombre completo">
+                    <input class="group__input" type="tel" name="tel" id="tel" placeholder="Ingrese su numero de celular">
+
+                </div>
+
+                <div class="form__group">
+
+                    <input class="group__input" type="text" name="domicilio" id="domicilio" placeholder="Ingrese su domicilio">
+                    <input class="group__input" type="email" name="email" id="email" placeholder="Ingrese su correo electrónico">
+
+                </div>
+
+                <textarea class="form__text" name="coments" id="coments" placeholder="Escriba su consulta..."></textarea>
+
+                <div id="mensajeError" style="color: red;"></div><br> 
+                <div id="mensajeExito" style="color: green;">
+                    <img class="check" src="/images/check-circle.svg" alt="CHECK">
+                    <p>Formulario enviado correctamente</p>
+                </div>
+
+                <input class="btn__send" type="submit" value="Enviar">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer__ctn">
+
+            <div class="footer__fila">
+
+                <div class="footer__links">
+
+                    <h4>Compañía</h4>
+
+                    <ul>
+                        <li>Servicios</li>
+                        <li>Planes</li>
+                        <li>Política y privacidad</li>
+                        <li>Consulta</li>
+                    </ul>
+
+                </div>
+
+                <div class="footer__links">
+
+                    <h4>Ayuda</h4>
+
+                    <ul>
+                        <li>Preguntas</li>
+                        <li>Emergencias</li>
+                        <li>Médicos</li>
+                        <li>Obra social</li>
+                        <li>Medios de pago</li>
+                    </ul>
+
+                </div>
+
+                <div class="footer__links">
+
+                    <h4>Planes</h4>
+
+                    <ul>
+                        <li>Básico</li>
+                        <li>Premium</li>
+                        <li>Intermedio</li>
+                    </ul>
+
+                </div>
+
+                <div class="footer__links">
+
+                    <h4>Seguinos</h4>
+
+                    <div class="social__link">
+
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-telegram'></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/menu-resposive.js"></script>
+    <script src="/js/validaciones.js"></script>
+    <script src="/js/scroll.js"></script>
+    <script src="https://unpkg.com/formsubmit"></script>
+</body>
+</html>
